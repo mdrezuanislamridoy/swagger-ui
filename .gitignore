@@ -1,6 +1,5 @@
 node_modules
 .idea
-.vscode
 .deps_check
 .DS_Store
 .nyc_output
@@ -16,3 +15,9 @@ flavors/**/dist/*
 # Cypress
 test/e2e-cypress/screenshots
 test/e2e-cypress/videos
+
+src/fontello/*
+!src/fontello/css/fontello-embedded.css
+!src/fontello/config.json
+!src/fontello/LICENSE.txt
+config.bat

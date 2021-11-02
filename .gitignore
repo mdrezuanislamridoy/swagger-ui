@@ -1,6 +1,5 @@
 node_modules
 .idea
-.vscode
 .deps_check
 .DS_Store
 .nyc_output
@@ -22,3 +21,4 @@ dist/log*
 # Cypress
 test/e2e-cypress/screenshots
 test/e2e-cypress/videos
+config.bat
